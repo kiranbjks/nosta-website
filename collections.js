@@ -31,7 +31,7 @@ var container=document.querySelector(".products")
 products.forEach((product)=>{
     var createItem = document.createElement("div")
     createItem.classList.add("product")
-    createItem.innerHTML=` <img style="width: 20vw;" src="IMAGES/${product.src}">
+    createItem.innerHTML=` <img style="width: 20vw;" src="images/${product.src}">
     <h1>${product.name}</h1>
     <p>₹${product.price}</p>
     <tags style="visibility:hidden;">${product.tags}</tags>`
